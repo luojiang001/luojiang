@@ -6,7 +6,7 @@ import { resolve } from 'path'
 export default defineConfig({
   plugins: [vue()],
   // 配置 base 路径，GitHub Pages 部署时需要替换为实际仓库名
-  base: '/仓库名/', // 标注：部署时请将此处替换为实际仓库名，例如 /myinfo/
+  base: '/luojiang/', // 标注：部署时请将此处替换为实际仓库名
   build: {
     outDir: 'dist',
     assetsDir: 'assets'
